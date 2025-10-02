@@ -1,0 +1,99 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: inter;
+	color: white;
+	font-weight: 400;
+}
+body {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	gap: 30px;
+}
+section {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+.carte1 {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	gap: 100px;
+	padding: 20px;
+	background-color: #ff5757;
+	width: 20%;
+	height: 40%;
+	border-radius: 12px;
+}
+.txt2 {
+	margin-left: 85%;
+}
+.carte2 {
+	padding: 20px;
+	background-color: #333333;
+	width: 20%;
+	height: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
+	gap: 100px;
+	border-radius: 12px;
+}
+.carrer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border: solid 3px;
+	border-color: black;
+	margin-left: 40%;
+}
+.carrerhaut {
+	display: flex;
+	flex-direction: row;
+}
+.carrerbas {
+	display: flex;
+	flex-direction: row;
+}
+.red {
+	background-color: #ff5757;
+	width: 25px;
+	height: 25px;
+}
+.blue {
+	background-color: #35aaf2;
+	width: 20px;
+	height: 20px;
+}
+.yellow {
+	background-color: #ffea00;
+	width: 20px;
+	height: 20px;
+}
+.green {
+	background-color: #86fc3d;
+	width: 20px;
+	height: 20px;
+}
+.txt {
+	border-bottom: solid 3px;
+	border-color: white;
+}
+.txt1 {
+	border-bottom: solid 3px;
+	border-color: white;
+	margin-left: 85%;
+}
+h1 {
+	border-bottom: solid 3px;
+	border-color: white;
+	margin-left: 45%;
+}
